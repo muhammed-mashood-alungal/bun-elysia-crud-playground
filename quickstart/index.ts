@@ -25,7 +25,7 @@ const server = Bun.serve({
     },
   },
   fetch(req) {
-    return new Response("hello World 2!");
+    return new Response("hello World 3!");
   },
 });
 
